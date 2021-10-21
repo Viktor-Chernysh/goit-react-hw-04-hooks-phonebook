@@ -1,0 +1,11 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+label div {
+  color: rgb(228, 225, 225);
+  margin-bottom: 10px;
+}

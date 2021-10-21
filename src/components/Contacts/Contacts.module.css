@@ -1,0 +1,37 @@
+.contact_list {
+  display: block;
+  padding: 20px 0;
+  padding-right: 20px;
+  border-radius: 5px;
+
+  color: #b4b4b4;
+  width: 350px;
+  background-color: rgb(56, 56, 56);
+}
+.contact_item {
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.contact_item span {
+  margin-left: 10px;
+  font-style: oblique;
+  font-weight: 400;
+}
+.contact_item button {
+  display: block;
+  padding: 3px 15px;
+  cursor: pointer;
+  border-color: rgb(211, 211, 211);
+  margin-left: auto;
+  border-radius: 5px;
+  background-color: #b6b6b3;
+  color: rgb(44, 44, 44);
+}
+.contact_item button:hover {
+  transform: scale(1.1);
+  background-color: rgb(146, 1, 1);
+  color: aliceblue;
+}
