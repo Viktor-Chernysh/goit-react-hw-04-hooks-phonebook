@@ -12,5 +12,5 @@ export default function Filter({ filter }) {
   );
 }
 Filter.propType = {
-  filter: PropTypes.string,
+  filter: PropTypes.func,
 };
