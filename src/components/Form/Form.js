@@ -25,10 +25,10 @@ export default function Form({ AddNewContact }) {
     const { name, value } = e.target;
     switch (name) {
       case 'name':
-        setName(value);
+        setName(value.trim());
         break;
       case 'number':
-        setNumber(value);
+        setNumber(value.trim());
         break;
       default:
         return;

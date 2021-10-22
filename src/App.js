@@ -27,9 +27,9 @@ function App() {
       alert(`${contact.name} is already in contacts!`);
       return;
     }
-    console.log(contacts);
+    // console.log(contacts);
     setContacts(prevState => [...prevState, contact]);
-    console.log(contacts);
+    // console.log(contacts);
   };
 
   const addFilter = e => {
